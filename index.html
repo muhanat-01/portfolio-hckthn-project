@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata and linking to fonts and stylesheet -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+     <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Zakaria Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <!-- Header Section -->
+    <header class="header center">
+      <h3>
+        <!-- Portfolio logo or initial -->
+        <a href="#" class="link">Z.</a>
+      </h3>
+      <nav class="nav center">
+        <!-- Navigation Links -->
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About Section -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Zakaria.</span></h1>
+        <h2 class="about__role">Interested in Data Analytics | Student</h2>
+        <p class="about__desc">
+          I am currently a student pursuing a Bachelor of Science in Computer Science. I am passionate about data analytics and continuously learning how to turn raw data into meaningful insights.
+        </p>
+
+        <!-- Contact and social media links -->
+        <div class="about__contact center">
+          <!-- Resume Button -->
+          <a href="#">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+             
+          <!-- GitHub Icon Link -->
+          <a href="https://github.com/muhanat-01/week1-html-test.git" aria-label="github" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <!-- LinkedIn Icon Link -->
+          <a href="linkedin.com/in/zakaria-s-5ba447260" aria-label="linkedin" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__grid">
+          <div class="project">
+            <!-- Project Title -->
+            <h3>Interactive dashboard</h3>
+            <!-- Project Description -->
+            <p class="project__description">
+              Built an interactive dashboard using Python and Excel to analyze student performance across subjects. The project helped identify trends and visualize areas where students struggled the most.
+            </p>
+            <!-- Technologies Used -->
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+            <!-- Project Links -->
+            <a href="https://github.com/muhanat-01/week1-html-test.git" aria-label="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a href="#" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <!-- List of Skills -->
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <!-- Email Contact Link -->
+        <a href="mailto:zakaria2imran@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <a href="#" class="link footer__link">Created By Zakaria</a>
+    </footer>
+
+    
+  </body>
+</html>
