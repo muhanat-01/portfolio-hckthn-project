@@ -42,3 +42,4 @@ portfolio/
 ├── index.html # Main page
 ├── style.css # All styling
 
+link to the live site ==> https://muhanat-01.github.io/portfolio-hckthn-project/
